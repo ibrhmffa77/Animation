@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+}
+.box {
+  width: 700px;
+  height: 400px;
+  background-color: blue;
+  margin-top: 50px;
+}
+
+img{
+width: 100px;
+top: 200px;
+left: 100px;
+position: relative;
+animation: MyDvd 5s infinite;
+}
+@keyframes MyDvd {
+  0% {
+      top: 200px;
+      left:100px;
+  }
+  18% {
+      top: 100px;
+      left: 300px;
+  }
+  34%{
+      top:0px;
+      left: 100px;
+  }
+  49%{
+      top:350px;
+      left:-150px;
+  }
+  63%{
+      top:200px;
+      left: -300px;
+  }
+  77%{
+      top:0px;
+      left: -110px;
+  }
+  89%{
+      top: 200px;
+      left:100px;
+  }
+}
